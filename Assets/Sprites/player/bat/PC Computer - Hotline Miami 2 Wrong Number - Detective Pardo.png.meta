@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: f8c2f51cd95d96649a1114e68167ffa7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_0
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 602
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0181504020f084c4aa89736d51219fc7
+      internalID: 1874858517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 651
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f907fbfecf52654c9bc9d8e724af98e
+      internalID: -1671267051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 700
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c1983a538e73f4180af19559dc7d53
+      internalID: 462358960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 749
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce6c0bc07644ed4bb78446ffd39867c
+      internalID: 544643343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 798
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4d9d11efa867e4faf657451f9a0460
+      internalID: -557859738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 847
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a485e1e9b55a64f9bcda8b1bf89792
+      internalID: 54430712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 896
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281eac8a3b99e854c98310e2133759a4
+      internalID: 1756769476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 945
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffede0926b2817a41bc1bbffacfd3ca4
+      internalID: -1931120198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_8
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 958
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300abc48f32a2294cb6fa9a79aad3e19
+      internalID: 1149916061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_9
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 945
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf7d9f143a480948ab2220f0ed9a490
+      internalID: -482375041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_10
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 955
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643a0dd4eaf185c4cb7d904538d6cca6
+      internalID: -1279201041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 955
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1843c50f3d0de6a42a16317af8f96336
+      internalID: 1073823003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_12
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 945
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498fd52fb970a95458e9dc10223f33ce
+      internalID: -1444657220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_13
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 949
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bb4ecd96af20d40854eaf970a20104
+      internalID: -607427511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_14
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 950
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5870b1f162f80be4ebfcff9f474e1e41
+      internalID: 487687605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_15
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 954
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c3bb496ea0cef499223ab26bef47b3
+      internalID: -1925766447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_16
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 952
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe670c4446c0094c82389ec1f9bbc98
+      internalID: -754096987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_0: 1874858517
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_1: -1671267051
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_10: -1279201041
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_11: 1073823003
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_12: -1444657220
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_13: -607427511
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_14: 487687605
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_15: -1925766447
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_16: -754096987
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_2: 462358960
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_3: 544643343
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_4: -557859738
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_5: 54430712
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_6: 1756769476
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_7: -1931120198
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_8: 1149916061
+      PC Computer - Hotline Miami 2 Wrong Number - Detective Pardo_9: -482375041
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
