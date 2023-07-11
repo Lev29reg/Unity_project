@@ -10,14 +10,15 @@ public class PlayerWeaponManager : MonoBehaviour
     public Action onDropWeapon;
     public bool inTrigger = false;
     private ItemManeger itemToSwitch;
+    private PlayerAnimationConroller animationConroller;
 
-    void Start()
+    private void Start()
     {
-
+        animationConroller = GetComponent<PlayerAnimationConroller>();
     }
 
 
-    void Update()
+    private void Update()
     {
         WeaponManager();
     }
@@ -37,7 +38,7 @@ public class PlayerWeaponManager : MonoBehaviour
     }
 
 
-    void SwitchWeapon()
+    private void SwitchWeapon()
     {
         if (itemToSwitch == null)
             return;
@@ -47,7 +48,7 @@ public class PlayerWeaponManager : MonoBehaviour
         itemToSwitch = null;
     }
 
-    void WeaponManager()
+    private void WeaponManager()
     {
         if(Input.GetMouseButtonDown(1))
         {
@@ -58,6 +59,29 @@ public class PlayerWeaponManager : MonoBehaviour
 
             SwitchWeapon();
         }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Attack();
+        }
+    }
+
+
+    private void Attack()
+    {
+        switch (curWeaponType)
+        {
+            case ItemData.Null:
+
+                break;
+            case ItemData.Bat:
+
+                break;
+            case ItemData.Gun:
+
+                break;
+        }
+        animationConroller.AttackAnimation();
     }
 
     public void DropWeapon(ItemData weapon)

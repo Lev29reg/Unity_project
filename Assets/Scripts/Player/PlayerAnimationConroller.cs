@@ -1,40 +1,49 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerAnimationConroller : MonoBehaviour
     
 {
-    Animator anim;
+    [SerializeField]private Animator anim;
+    [SerializeField] private Animator LegAnim;
 
-    PlayerWeaponManager pw;
+    private PlayerWeaponManager pw;
 
-    int weaponID = 0;
+    private int weaponID = 0;
 
-   bool WalkCheck = false; 
-
-    void Start()
+    private void Start()
     {
-        anim = GetComponent<Animator>();
         pw = GetComponent<PlayerWeaponManager>();
     }
-    void Update()
+    private void Update()
     {
         WeaponAnimation(pw.curWeaponType);
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.A))
-            WalkCheck = true;
-        else
-            WalkCheck = false;
-    }
-    void WalkAnimation() 
-    {
-        WalkCheck = false;
-        if (WalkCheck == true)
+        if(Input.GetAxis("Horizontal")!=0 || Input.GetAxis("Vertical") != 0)
+        {
             anim.SetBool("walk", true);
+            LegsAnimation(true);
+        }
         else
+        {
             anim.SetBool("walk", false);
+            LegsAnimation(false);
+        }
     }
-    void WeaponAnimation(ItemData weapon)
+
+    public void AttackAnimation()
+    {
+        anim.SetTrigger("Attack");
+    }
+
+
+    private void LegsAnimation(bool val)
+    {
+        LegAnim.gameObject.SetActive(val);
+    }
+
+    private void WeaponAnimation(ItemData weapon)
     {
         switch(weapon)
         {

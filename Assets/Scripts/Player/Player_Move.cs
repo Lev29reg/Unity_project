@@ -5,18 +5,18 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     // Перемещение перса
-    Rigidbody2D rb;
+    private Rigidbody2D rb;
     public float speed;
 
-    float x, y;
+    private float x, y;
 
     public bool canMove = true;
 
     // Поворот перса
-    Vector3 mousePosition;
-    Vector3 direct;
+    private Vector3 mousePosition;
+    private Vector3 direct;
 
-    Camera cam;
+    private Camera cam;
 
     private void Start()
     {
@@ -24,7 +24,7 @@ public class CharacterMovement : MonoBehaviour
         cam = Camera.main;
     }
 
-    void Update()
+    private void Update()
     {
         InputManager();
     }

@@ -7,7 +7,7 @@ public class ItemManeger : MonoBehaviour
 {
     public ItemData item;
 
-    PlayerWeaponManager pw;
+    private PlayerWeaponManager pw;
 
 
     private void OnDisable()
