@@ -11,6 +11,8 @@ public class PlayerWeaponManager : MonoBehaviour
     public bool inTrigger = false;
     private ItemManeger itemToSwitch;
     private PlayerAnimationConroller animationConroller;
+    [SerializeField] private WeaponsConfig config;
+    [SerializeField] private LayerMask enemyMask;
 
     private void Start()
     {
@@ -69,19 +71,28 @@ public class PlayerWeaponManager : MonoBehaviour
 
     private void Attack()
     {
-        switch (curWeaponType)
+        if(curWeaponType== ItemData.Null)
+        { return; }
+
+        if (CheckRaycastHit(config.GetWeapon(curWeaponType).Dps, out Enemy target))
         {
-            case ItemData.Null:
-
-                break;
-            case ItemData.Bat:
-
-                break;
-            case ItemData.Gun:
-
-                break;
+            target.GetDamage();
         }
         animationConroller.AttackAnimation();
+    }
+
+    private bool CheckRaycastHit(float distance, out Enemy enemy)
+    {
+        RaycastHit2D hit =Physics2D.Raycast(transform.position, transform.right, distance, enemyMask);   
+
+        if(hit.collider.TryGetComponent(out Enemy target))
+        {
+            enemy = target;
+            return true;
+        }
+        enemy = null;
+
+        return false;
     }
 
     public void DropWeapon(ItemData weapon)
@@ -93,4 +104,10 @@ public class PlayerWeaponManager : MonoBehaviour
         curWeaponType = ItemData.Null;
         
     }
+
+    public void OnDrawGizmos()
+    {
+        Gizmos.DrawLine(transform.position, transform.right *100);
+    }
+
 }
