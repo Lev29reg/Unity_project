@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapons:
   - Type: 1
-    Dps: 1
+    Dps: 1.5
   - Type: 2
-    Dps: 15
+    Dps: 7
